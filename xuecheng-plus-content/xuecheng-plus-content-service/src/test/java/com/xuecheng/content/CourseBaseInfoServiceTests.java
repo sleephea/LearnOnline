@@ -43,7 +43,7 @@ public class CourseBaseInfoServiceTests {
 
         PageResult<CourseBase> courseBasePageResult = courseBaseInfoService.queryCourseBaseList(pageParams, courseParamsDto);
         System.out.println(courseBasePageResult);
-        System.out.println("不该");
+
 
     }
 }
